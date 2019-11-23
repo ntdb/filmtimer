@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2rem;
+}
+
+.App-timer {
+  font-size: 4rem;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-button {
+  align-self: center;
+  height: 50px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.App-start {
+  background-color: lightgreen;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
